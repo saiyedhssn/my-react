@@ -1,0 +1,23 @@
+.header .navber-nav a {
+    margin-left:8px; 
+        color: white;
+    
+
+}
+
+.header .navbar-nav .nav-link:last-child{
+    background-color:#F50057;
+    padding: 10px 30px;
+   
+    border-radius: 6px;
+    text-align: center;
+ }
+ img {
+    width: 36px;
+}
+span {
+    color:#F50057;
+}
+
+  
+

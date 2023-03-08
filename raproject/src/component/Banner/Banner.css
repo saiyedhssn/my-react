@@ -1,0 +1,21 @@
+
+
+ 
+
+@media screen and (min-width:280px) and (max-width:653px) {
+
+
+
+
+    .carousel-item {
+        min-height: 400px !important;
+    }
+    
+    .carousel-item img {
+        min-height: 400px !important;
+        width: auto !important;
+    }
+
+   
+    
+}

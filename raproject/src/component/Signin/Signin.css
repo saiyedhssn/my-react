@@ -1,0 +1,26 @@
+.signinform-area{
+    background-color: blueviolet;
+    padding: 50px 0px;
+    color: white;
+}
+
+button.btn.btn-primary {
+    background-color:#F50057;
+    border: none;
+}
+
+.signin-inner{
+    background-color:#00000057;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+a.nav-link.btn {
+    border: none;
+}
+
+.reg-link{
+    color:white !important;
+    padding: 10px 5px !important;
+    display:inline-block !important;
+}

@@ -1,0 +1,28 @@
+.sec-bg{
+    background-color: #A2D0F4;
+    padding: 150px 0;
+   
+  
+   
+}
+
+.inner-bg{
+    background-image: url(../../images/bgsec3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 75px;
+    border-radius: 5px;
+    background-attachment: fixed;
+    
+    
+}
+.heading-bg p{
+    font-size: 18px;
+    color:white;
+
+}
+.heading-bg h1{
+   padding-bottom: 40px;
+   color:white;
+}

@@ -1,0 +1,135 @@
+.common{
+    background-image: url(../../images/lady2.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+     padding-top:100px;
+    padding-bottom:100px;  
+}
+.common-textContent{
+    background:#9D91F5;
+     padding: 20px;  
+  
+    
+}
+.common-textContent h4{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px wheat;
+    line-height: 1.9;
+    font-weight: 300;
+       padding: 40px; 
+}
+ 
+.common-textContent  {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
+    color: white;
+}
+
+
+
+
+/* common sec 2 */
+
+.common-sec2{
+    background-color:#F4F2F8 ;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+} 
+
+
+.com-content h3{
+    /* padding-bottom: 20px; */
+    color: #2B1B9A;
+   
+}
+.com-content li {
+    list-style: none;
+    display: inline-block;
+    color: #2B1B9A;
+    padding: 20px;
+   
+}
+
+.content-button .btn{
+    margin-left: 16px;
+}
+
+.com-img img{
+    width: 70%;
+}
+
+
+
+
+@media screen and (min-width:280px) and (max-width:653px) {} 
+ 
+    
+
+/* sec2 responsive */
+
+
+@media screen and (min-width:375px) and (max-width:667px) {
+
+    .com-content {
+        text-align: center;
+    }
+
+    .com-img {
+        text-align: center;
+        padding-top: 40px;
+    }
+} 
+@media screen and (min-width:360px) and (max-width:740px) {
+
+    .com-content {
+        text-align: center;
+    }
+
+    .com-img {
+        text-align: center;
+        padding-top: 40px;
+    }
+} 
+@media screen and (min-width:820px) and (max-width:1080px) {
+
+    .com-content {
+        text-align: center;
+    }
+
+    .com-img {
+        text-align: center;
+        padding-top: 40px;
+    }
+} 
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .com-content {
+        text-align: center;
+    }
+
+    .com-img {
+        text-align: center;
+        padding-top: 40px;
+    }
+} 
+@media screen and (min-width:280px) and (max-width:653px) {
+
+    .com-content {
+        text-align: center;
+    }
+
+    .com-img {
+        text-align: center;
+        padding-top: 40px;
+    }
+} 
+@media screen and (min-width:600px) and (max-width:1024px) {
+
+    .com-content {
+        text-align: left;
+    }
+
+   
+} 

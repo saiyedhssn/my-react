@@ -1,0 +1,67 @@
+.product{
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+.product-head h1{
+    color: #2B1B9A;
+}
+
+
+
+.single-product{
+    background:#FFCD1E;
+    text-align: center;
+    padding-bottom:60px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    margin-right: -16px;
+}
+
+.single-product h4{
+   color: white;
+   padding-top:20px;
+   padding-bottom: 30px;
+ 
+}
+.single-product img{
+   width: 50%;
+  
+}
+
+.red{
+    background: #FA585A;
+}
+.headphone{
+    background:#67B6F4;
+}
+.chair{
+    background: #9D91F5;
+}
+
+
+.purple{
+    background: #BB8FCE ;
+}
+.green{
+    background: #31A452;
+}
+
+@media only screen and (min-width:375px) and (max-width:667px){
+    .single-product {
+        
+        margin-right: 0px;
+    }
+}
+@media only screen and (min-width:360px) and (max-width:740px){
+    .single-product {
+        
+        margin-right: 0px;
+    }
+}
+@media only screen and (min-width:280px) and (max-width:653px){
+    .single-product {
+        
+        margin-right: 0px;
+    }
+}
+    

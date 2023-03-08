@@ -1,0 +1,38 @@
+[
+    {
+      "_id": "1",
+      "image": "https://cdn.shopify.com/s/files/1/1859/8979/t/4/assets/editor.svg?                 v=26141043621473276621644625039",
+      "title": "Event Management",
+      "description": "Every event is done by a professional, not a machine,           complete control and the cleanest edges"
+    },
+    {
+      "_id": "2",
+      "image": "https://cdn.shopify.com/s/files/1/1859/8979/t/4/assets/ecommerce.svg?v=152897885732493222341644625042",
+      "title": "Ecommerce Exposure",
+      "description": "Every event is done by a professional, not a machine,           complete control and the cleanest edges"
+    },
+    {
+      "_id": "3",
+      "image": "https://cdn.shopify.com/s/files/1/1859/8979/t/4/assets/timer.svg?v=60931454631990227701628203694",
+      "title": "Time Management",
+      "description": "Every event is done by a professional, not a machine,           complete control and the cleanest edges"
+    },
+    {
+      "_id": "4",
+      "image": "https://cdn.shopify.com/s/files/1/1859/8979/t/4/assets/researcher.svg?v=59901416171291178341628203592",
+      "title": "Weeding Photograpgy",
+      "description": "Every event is done by a professional, not a machine,           complete control and the cleanest edges"
+    },
+    {
+      "_id": "5",
+      "image": "https://cdn.shopify.com/s/files/1/1859/8979/t/4/assets/donor.svg?v=21078426314786067081628203507",
+      "title": "Bussiness Management",
+      "description": "Every event is done by a professional, not a machine,           complete control and the cleanest edges"
+    },
+    {
+      "_id": "6",
+      "image": "https://cdn.shopify.com/s/files/1/1859/8979/t/4/assets/support.svg?v=87261008439843221191644625038",
+      "title": "Bussiness presentation",
+      "description": "Every event is done by a professional, not a machine,           complete control and the cleanest edges"
+    }
+  ]
