@@ -3,6 +3,16 @@
     text-align: right;
 }
 
+.home-left h3{
+    font-size: 24px;
+}
+.home-left p{
+    font-family:Livvic;;
+}
+.home-left h1{
+ font-family:Livvic;
+ font-weight: 700;
+}
 
 .home-hero{
     background-color:#F8F6FA;

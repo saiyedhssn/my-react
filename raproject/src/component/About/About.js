@@ -8,7 +8,6 @@ import About3 from '../../images/aboutsec3.jpg'
 import Man1 from '../../images/man1.jpg';
 import Man2 from '../../images/man2.jpg';
 import Man3 from '../../images/man1.jpg';
-import Background from '../Background/Background';
 import './About.css';
 
 
@@ -17,7 +16,22 @@ const About = () => {
        
         <div className='about-area'>
              
-              <Background/> 
+             
+
+              <div className='about-hero'>
+
+                <Container>
+                    <Row>
+                        <div className='about-hero-text text-center align-items-center'>
+                            <h1>Let's talk about us here</h1>
+                            <p>Approve your quote and give us the green light to get started</p>
+
+                          
+                        
+                        </div>
+                    </Row>
+                </Container>
+              </div>
 
              
              <div className="about">
@@ -49,7 +63,7 @@ const About = () => {
 
                            <div className='single-about d-flex align-items-center'>
                            <div className='about-img'>
-                           <img src={Aboutphotoleft} alt=""/>
+                           <img src={Aboutphotoleft} alt="leftimg"/>
                             </div>
 
                           <div className='about-text'>
@@ -65,7 +79,7 @@ const About = () => {
 
                     <div className='single-about d-flex align-items-center'>
                         <div className='about-img'>
-                           <img src={Aboutphotoright} alt=""/>
+                           <img src={Aboutphotoright} alt="about-photoright"/>
                          </div>
                          <div className='about-text'>
                            <h4>31,593</h4>
@@ -86,7 +100,7 @@ const About = () => {
                                <div className='sec3-head'>
 
                                <div className='sec3-img' >
-                                <img src={About3} alt=""/>
+                                <img src={About3} alt="about-3"/>
 
                                </div>
                                <div className='sec3-text'>
@@ -121,7 +135,7 @@ const About = () => {
                                 <Col lg={4}>
                                    <div className='sec4-middle'>
                                      <div className='sec4-img'>
-                                        <img src={Man1} alt=""/>
+                                        <img src={Man1} alt="man-1"/>
                                      </div>
                                     <div className='sec4-text'>
                                         <h6><span>A busy professional photographer </span>with batches of edits due from a recent product photoshoot</h6>
@@ -131,7 +145,7 @@ const About = () => {
                                 <Col lg={4}>
                                    <div className='sec4-middle'>
                                    <div className='sec4-img'>
-                                        <img src={Man2} alt=""/>
+                                        <img src={Man2} alt="man-2"/>
                                     </div>
                                     <div className='sec4-text'>
                                         <h6><span>A freelancer or agency  </span>with tight client deadlines and tons of other deliverables to wrangle</h6>
@@ -141,10 +155,10 @@ const About = () => {
                                 <Col lg={4}>
                                    <div className='sec4-middle'>
                                    <div className='sec4-img'>
-                                        <img src={Man3} alt=""/>
+                                        <img src={Man3} alt="man-3"/>
                                     </div>
                                     <div className='sec4-text'>
-                                        <h6><span>An ecommerce retailer who wants </span> to use their time to move the needle instead of fiddling around in Photoshop</h6>
+                                        <h6><span>An ecommerce retailer who wants </span> to use their time to move the needle instead of fiddling </h6>
                                     </div>
                                    </div>
                                 </Col>

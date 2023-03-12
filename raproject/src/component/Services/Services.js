@@ -1,12 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-
-
-
-import "./Services.css";
 import { useEffect, useState } from 'react';
 import Service from '../Service/Service';
-import Col from 'react-bootstrap/esm/Col';
+import "./Services.css";
 
 
 

@@ -12,7 +12,7 @@ const Service = ({item}) => {
                           
                          <Col lg={4}>
                             <div className='single-service text-center '>
-                                   <img src={item.image} className="w-50 mb-2"/>
+                                   <img src={item.image} alt="sin-img" className="w-50 mb-2"/>
                                    <h4>{item.title}</h4>
          
                                  <p>{item.description}</p>

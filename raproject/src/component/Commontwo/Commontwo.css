@@ -15,15 +15,18 @@
 }
 .common-textContent h4{
     border-radius: 10px;
-    box-shadow: 5px 5px 5px wheat;
+    /* box-shadow: 5px 5px 5px wheat;  */
     line-height: 1.9;
     font-weight: 300;
-       padding: 40px; 
+    font-size: 25px;
+    padding: 40px;
+    font-family:  Livvic; 
 }
  
 .common-textContent  {
     border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
+    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486); */
+    box-shadow: 5px 5px 5px 0 #ffffff54;
     color: white;
 }
 
@@ -46,10 +49,16 @@
 }
 .com-content li {
     list-style: none;
-    display: inline-block;
+    /* display: inline-block; */
     color: #2B1B9A;
-    padding: 20px;
    
+   
+}
+
+.com-content svg {
+    color: #A195F9;
+    font-size: 53px;
+    margin-right: 5px;
 }
 
 .content-button .btn{

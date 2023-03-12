@@ -7,7 +7,7 @@ const Blog = ({blogg}) => {
         
             <Col lg={4}>
             
-            <img w-50 src={blogg.img}/>
+            <img w-50 src={blogg.img} alt="blog-img"/>
             <h4>{blogg.heading}</h4>
             <p>{blogg.para}</p>
             </Col>

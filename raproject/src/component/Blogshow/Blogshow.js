@@ -36,7 +36,7 @@ const Blogshow = () => {
                         
                         <Col lg={6}>
                              <div className='blog-hero-right'>
-                                <img src={Bloghero}></img>
+                                <img src={Bloghero} alt="blog-hero"/>
                              </div>
                         </Col>
                     </Row>

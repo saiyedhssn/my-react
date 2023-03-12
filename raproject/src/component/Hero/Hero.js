@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/esm/Col';
 import Container from 'react-bootstrap/esm/Container';
 import Row from 'react-bootstrap/esm/Row';
 import hmimg from '../../images/undo11.png';
+import {NavLink} from 'react-router-dom';
 import './Hero.css'
 
 const Hero = () => {
@@ -17,12 +18,12 @@ const Hero = () => {
                     <h1 >Perfect project to start up a bussiness <span>product photos</span> </h1>
                     <h3 >We are here to give you in the most complex <span className='yello'>supportive programme </span></h3>
                     <p>Get a perfect bussiness plan to help you with our services, whenever you need them. services for ecommerce businesses. </p>
-                    <Button variant="danger">Contact Here</Button>
+                   <NavLink to="/blog"> <Button variant="danger">Learn More</Button></NavLink>
                   </div>
                     </Col>
                     <Col lg={6}>
                         <div className='img-div'>
-                            <img src={hmimg} alt=""/>
+                            <img src={hmimg} alt="hmimg"/>
                         </div>
                     </Col>
                 </Row >

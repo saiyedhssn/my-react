@@ -7,7 +7,7 @@
 }
 
 .inner-bg{
-    background-image: url(../../images/bgsec3.jpg);
+    background-image: url(../../images/bgsec9.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,11 +18,15 @@
     
 }
 .heading-bg p{
-    font-size: 18px;
+    font-size: 24px;
     color:white;
+    font-family: Livvic;
 
 }
 .heading-bg h1{
    padding-bottom: 40px;
    color:white;
+   font-size: 40px;
+   font-weight: 700;
+   font-family: Livvic;
 }

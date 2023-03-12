@@ -1,7 +1,32 @@
 .about{
-    background-color: #F8F6FA;
+    background-color: ;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.about-hero{
+
+    background: url(../../images/abouthero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0px;
+}
+.about-hero h1{
+
+   color:white;
+   font-size: 48px;
+   font-weight: 700;
+   font-family:Livvic ;
+   
+}
+.about-hero p{
+
+   color:white;
+   font-size: 32px;
+   font-weight: 600;
+   font-family:Livvic;
+   
 }
 
 .about-head h1 {
@@ -16,7 +41,7 @@
 
 .img-text{
     background-color: #F8F6FA;
-    padding-bottom: 100px;
+    padding: 100px 0px;
 }
 
 .single-about{

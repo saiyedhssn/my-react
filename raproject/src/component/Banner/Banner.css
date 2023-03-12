@@ -1,6 +1,13 @@
 
 
- 
+.carousel-caption {
+    justify-content: center !important;
+    height: 100%;
+    top: 37%;
+}
+
+
+
 
 @media screen and (min-width:280px) and (max-width:653px) {
 

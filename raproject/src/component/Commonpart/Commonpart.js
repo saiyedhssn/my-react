@@ -17,7 +17,7 @@ const Commonpart = () => {
                             <Col lg={12}>
                                 <div className='sec4-text text-center'>
 
-                                    <h1>How to know know proper bussiness policy to apply </h1>
+                                    <h1>How to know proper bussiness policy to apply </h1>
                                     <p>You don't have to do everything yourself. Outsourced services are ideal if you are ...</p>
 
                                 </div>
@@ -31,7 +31,7 @@ const Commonpart = () => {
                                 <Col lg={4}>
                                    <div className='sec4-middle'>
                                      <div className='sec4-img'>
-                                        <img src={Man1} alt=""/>
+                                        <img src={Man1} alt="man-1"/>
                                      </div>
                                     <div className='sec4-text'>
                                         <h6><span>A busy professional photographer </span>with batches of edits due from a recent product photoshoot</h6>
@@ -41,7 +41,7 @@ const Commonpart = () => {
                                 <Col lg={4}>
                                    <div className='sec4-middle'>
                                    <div className='sec4-img'>
-                                        <img src={Man2} alt=""/>
+                                        <img src={Man2} alt="man-2"/>
                                     </div>
                                     <div className='sec4-text'>
                                         <h6><span>A professional agency  </span>with tight client deadlines and tons of other deliverables to wrangle</h6>
@@ -51,7 +51,7 @@ const Commonpart = () => {
                                 <Col lg={4}>
                                    <div className='sec4-middle'>
                                    <div className='sec4-img'>
-                                        <img src={Man3} alt=""/>
+                                        <img src={Man3} alt="man-3"/>
                                     </div>
                                     <div className='sec4-text'>
                                         <h6><span>An ecommerce retailer who wants </span> to use their time to move the needle instead of fiddling.</h6>

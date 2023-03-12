@@ -4,6 +4,7 @@ import banner1 from "../../images/about1.jpg"
 import banner2 from "../../images/about2.jpg"
 import banner3 from "../../images/about3.jpg"
 import Button from 'react-bootstrap/Button';
+import { NavLink } from 'react-router-dom';
 import './Banner.css'
 
 const Banner = () =>{
@@ -21,7 +22,7 @@ const Banner = () =>{
             <h3>Let me Know you About us </h3>
             <h2>Weeding photography & event management </h2>
             <p> we know Path will come through and deliver consistent, quality imagery every time..</p>
-            <Button variant="secondary">More Info</Button>{' '}
+            <NavLink to="/about"> <Button variant="secondary">More Info</Button>{' '}</NavLink>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -35,7 +36,7 @@ const Banner = () =>{
           <h3>Our coperative programme </h3>
             <h2>Ecommerce bussiness products exposing.</h2>
             <p> we know Path will come through and deliver consistent, quality imagery every time..</p>
-            <Button variant="secondary">More Info</Button>{' '}
+            <NavLink to="/about"> <Button variant="secondary">More Info</Button>{' '}</NavLink>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -49,7 +50,9 @@ const Banner = () =>{
           <h3>Enhance your bussiness </h3>
             <h2>We’re able to photograph all of our products .</h2>
             <p> we know Path will come through and deliver consistent, quality imagery every time..</p>
-            <Button variant="secondary">More Info</Button>{' '}
+
+            <NavLink to="/about"> <Button variant="secondary">More Info</Button>{' '}</NavLink>
+           
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

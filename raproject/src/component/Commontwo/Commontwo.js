@@ -1,10 +1,10 @@
 import React from 'react';
-import Button from 'react-bootstrap/esm/Button';
 import Col from 'react-bootstrap/esm/Col';
-
 import Container from 'react-bootstrap/esm/Container';
 import Row from 'react-bootstrap/esm/Row';
-import Workphoto from '../../images/work.png'
+// import Workphoto from "../../images/work.png";
+// import {AiFillBulb } from "react-icons/ai";
+
 import './Commontwo.css';
 
 const Commontwo = () => {
@@ -16,7 +16,7 @@ const Commontwo = () => {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                        <h1 className='text-center common-head'>Customers' Feedback</h1>
+                        <h1 className='text-center common-head pb-5'>Customers' Feedback</h1>
                         </Col>
                     </Row>
                     <Row>
@@ -38,24 +38,40 @@ const Commontwo = () => {
 
             </div>
 
-               <div className='common-sec2'>
+                {/* <div className='common-sec2'>
 
 
                <Container>
                 <Row>
                     <Col lg={6}>
-                        <div className='com-content'>
-
-                            <h3>How it Works</h3>
-                            <li>Request a quote for the images you need edited — we’ll get back to you within 45 minutes</li>
-                            <li>Approve your quote and give us the green light to get started</li>
-                            <li>Upload your images, and then let us do the rest</li>
-                            <div className='content-button'><Button className="btn">Check out our process</Button></div>
+                       <h3>How it Works</h3>
+                        <div className='com-content pt-5'>
+                               
+                           <div className='com-icon d-flex align-items-center pb-4'>
+                           <AiFillBulb/>
+                           <li>Request a quote for the images you need edited — we’ll get back to you within 45 minutes </li> 
+                           </div>
+                            
+                           <div className='com-icon d-flex align-items-center pb-4'>
+                           <AiFillBulb/>
+                           <li>Approve your quote and give us the green light to get started </li> 
+                           </div>
+                            
+                           <div className='com-icon d-flex align-items-center pb-4'>
+                           <AiFillBulb/>
+                           <li>Upload your images, and then let us do the rest </li> 
+                           </div>
+                            
+                          
+                            
+                           
+                           
                         </div>
+                       
                     </Col>
                     <Col lg={6}>
-                        <div className="com-img">
-                            <img src={Workphoto} alt=""/>
+                        <div className="com-img text-end">
+                            <img src={Workphoto} alt="work"/>
 
                         </div>
 
@@ -66,7 +82,7 @@ const Commontwo = () => {
 
 
                </div>
-             
+               */}
            
 
         </div> 
